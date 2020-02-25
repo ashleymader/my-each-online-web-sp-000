@@ -1,6 +1,6 @@
 def my_each(array)
   counter = 0 
-  while counter <= 5 do
+  while counter <= array.length
     word
   counter += 1
 end

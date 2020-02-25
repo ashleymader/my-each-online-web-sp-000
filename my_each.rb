@@ -1,18 +1,10 @@
 collection = [1, 2, 3, 4]
 
 def my_each(collection, index)
-  while index
-  return (my_each)collection
+  if block_given?
+  while index <= 5
+    yield collection[]
+  end
+  index
 end
 
-def hello_t(array)
-  if block_given?
-  i = 0 
-  while i < array.length 
-    yield (array[i])
-    i = i + 1 
-  end
-    array
-  else puts "Hey! No block was given!"
-  end
-end

@@ -1,6 +1,7 @@
 
 
-def my_each
+def my_each(words)
+  
   
 end
 

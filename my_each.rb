@@ -1,10 +1,6 @@
 
 
-def my_each(collection, index)
-  if block_given?
-  while index <= 5
-    yield collection[]
-  end
-  index
+def my_each
+  
 end
 
